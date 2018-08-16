@@ -40,7 +40,7 @@ public class Test
 			while(resultSet.next()){
 				System.out.println("id="+resultSet.getString("id")+"  "+resultSet.getString("username"));
 			}
-		} catch (Exception e) {
+		} catch (Exception e ) {
 			e.printStackTrace();
 		}finally{ 
 			//释放资源
