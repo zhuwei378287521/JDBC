@@ -42,7 +42,7 @@ public class Test
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
-		}finally{
+		}finally{ 
 			//释放资源
 			if(resultSet!=null){
 				try {
